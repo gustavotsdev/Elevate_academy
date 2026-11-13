@@ -1,0 +1,107 @@
+.imgfundo{
+    margin: 0;
+    padding: 0;
+    background-image:url(gym.jpeg);
+    background-size:cover;
+    height: 100vh;
+    color: white;
+
+
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 20px;
+}
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 300px;
+    padding:40px;
+    background: rgba(50, 43, 43, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+
+    
+}
+
+input[type="email"], input[type="password"]{
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(97, 36, 36);
+    width:80%;
+    color: white;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor:pointer;
+    background-color:rgb(97, 36, 36);
+    border-radius: 5px;
+    padding: 5px;
+    width:30%
+    
+    
+    
+
+    
+}
+
+.conta{
+    display:inline;
+    white-space: nowrap;
+    padding:50px;
+    margin-top: auto;
+    padding-bottom: 0%;
+
+
+}
+
+p{
+    margin-left:-80px
+
+}
+
+a{
+    margin-left: 155px;
+}
+
+.campos{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+input::placeholder{
+    color:white;
+}
+
+#mensagem{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+
+}
+
